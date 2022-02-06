@@ -1,0 +1,24 @@
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  color: #818181
+}
+
+.header-logo{
+  width:150px
+}
+
+.header-nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.header-nav-item{
+  margin-right: 30px;
+  text-decoration: none;
+  
+}
