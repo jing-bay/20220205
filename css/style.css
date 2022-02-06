@@ -1,6 +1,13 @@
-.a{
-text-decoration: none;
+* {
+    margin: 0px;
 }
+
+a{
+text-decoration: none;
+color: inherit;
+}
+
+/*ヘッダー*/
 
 .header{
   display: flex;
@@ -24,13 +31,52 @@ text-decoration: none;
   
 }
 
+/*メイン*/
+
+main{
+  justify-content: center;
+}
+
 .top{
   position: relative;
 }
 
 .top-img img{
-  max-width: 600px;
+  max-width: 800px;
   width: 100%;
+  margin: 0 0 0 auto;
+  display: block;
+}
 
+.top-content{
+  position: absolute;
+  bottom: 150px;
+  left: 350px;
+}
+
+.top-content span{
+  color:#1C9DA3;
+}
+
+.top-content-title{
+  font-family: 'Indie Flower', cursive;
+  font-size: 400%;
+  color: #B31667;
+}
+
+.top-content-text{
+  font-size: 130%;
+  color: #B31667;
+}
+
+.top-content-text2{
+  color: #818181
+}
+
+.title{
+  font-family: 'Indie Flower', cursive;
+  font-size: 100%;
+  color: #B31667;
   
 }
+
