@@ -1,4 +1,6 @@
-
+.a{
+text-decoration: none;
+}
 
 .header{
   display: flex;
@@ -9,7 +11,7 @@
 }
 
 .header-logo{
-  width:150px
+  width: 120px;
 }
 
 .header-nav-list {
@@ -19,6 +21,16 @@
 
 .header-nav-item{
   margin-right: 30px;
-  text-decoration: none;
+  
+}
+
+.top{
+  position: relative;
+}
+
+.top-img img{
+  max-width: 600px;
+  width: 100%;
+
   
 }
