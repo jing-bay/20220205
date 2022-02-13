@@ -1,10 +1,10 @@
 * {
-    margin: 0px;
+  margin: 0px;
 }
 
 a{
-text-decoration: none;
-color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 li{
@@ -352,11 +352,15 @@ table th {
 
 .rec-int{
   margin-top: 75px;
+  margin-left: 0;
+  margin-right: 0%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+
 }
+
 
 .rec{
   position: relative;
@@ -376,7 +380,7 @@ table th {
 .rec-int-title2{
   position: absolute;
   bottom: 40%;
-  left: 40%;
+  left: 35%;
   color: white;
 }
 
